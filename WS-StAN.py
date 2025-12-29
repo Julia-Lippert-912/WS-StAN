@@ -35,7 +35,7 @@ else:
     h2Tags = appointmentsBody.find_all('h2')
 
 for h2 in h2Tags:
-    if '2027' in h2.text:
+    if '2026' in h2.text:
         sendEmail()
         
         
